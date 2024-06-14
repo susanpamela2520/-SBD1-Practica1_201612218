@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82F5F53C-3E8C-7660-8125-5D3634AF5157" name="Llamada">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:57:46 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_llamada" id="3D40765E-BB15-053D-5EEC-E84B03C95100">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:57:57 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="3726318E-3F63-6A2F-6756-461E9467279E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:58:08 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="98134725-A769-B9E0-47BA-CBE348083948">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:58:28 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="969B022B-DDAA-C90B-FEB7-7E9D51A5F3E7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:58:47 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="A864148F-3D8B-CBE7-62B9-70901FD88245">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:01:03 UTC</createdTime>
+<generatorID>B93A3874-562B-3E3D-6DAA-D08CA72E0786</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<referedAttribute>62FC58EE-0E13-3F27-55B8-41203585577D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="40518221-4A94-2634-2909-85ED5F12528C">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:07:36 UTC</createdTime>
+<generatorID>0470640D-D294-1F5D-F8DC-076778F1D301</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<referedAttribute>D495DCF6-1CB0-2028-5CD1-9C9F9036110D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC953DE4-5799-54D8-2F0D-5C4E7542E84A" name="Llamada PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:58:07 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D40765E-BB15-053D-5EEC-E84B03C95100</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

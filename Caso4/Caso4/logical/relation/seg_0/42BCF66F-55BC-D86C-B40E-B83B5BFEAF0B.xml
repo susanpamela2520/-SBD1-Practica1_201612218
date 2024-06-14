@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mante" directorySegmentName="seg_0" id="42BCF66F-55BC-D86C-B40E-B83B5BFEAF0B">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:18:59 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<sourcePk>E75B9BA1-A60C-27C1-9C6F-5695407AC4A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6218EE9D-D106-82B2-9A7B-3DB64DC4C12B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42CB9F1D-7B8B-D0D9-E2D5-0F298E8C7F9F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

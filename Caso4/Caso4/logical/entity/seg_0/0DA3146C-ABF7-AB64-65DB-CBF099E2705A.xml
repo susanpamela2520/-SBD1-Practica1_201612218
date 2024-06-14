@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DA3146C-ABF7-AB64-65DB-CBF099E2705A" name="Viaje">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 04:40:48 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_viaje" id="D86892D5-09AE-B374-98C8-6EF6261A2E8E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 04:40:54 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_pasajeros" id="4C9D8F77-EB87-107C-C41A-993D28908C46">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:14:22 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_despegue" id="0F95EA53-F33D-1178-D332-A5E9E2761DD5">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:14:44 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_aterrizaje" id="C68253D4-8B4B-5E21-D2FD-B8E92BDBD6C8">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:15:01 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tripulacion" id="35ABC55B-E6C8-BF62-947B-B2AC3B4ED91A">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:15:48 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais_despegue" id="2AAE158A-B383-3601-DBF7-25ED0295AD82">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:16:58 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais_aterrizaje" id="46A01152-F33F-7E8A-2EF1-DFBD608AAB82">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:17:31 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_despegue" id="965271EE-71C7-23A5-11C8-2B9824B91477">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:17:45 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_aterrizaje" id="5B349108-BDFB-870A-14DE-F579FF75B9C7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:18:08 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_avion" id="ED376631-6352-E5D1-06F0-26E1D57D36FE">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:18:31 UTC</createdTime>
+<generatorID>B89B5F61-88BB-7DEC-B32F-CC3384F27BCC</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<referedAttribute>0517A774-29CD-9946-0B3D-E0793E4F4BD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CDE2F6C-C3A7-DC24-0DB1-54E69CE3A0D1" name="Viaje PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 04:50:33 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D86892D5-09AE-B374-98C8-6EF6261A2E8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

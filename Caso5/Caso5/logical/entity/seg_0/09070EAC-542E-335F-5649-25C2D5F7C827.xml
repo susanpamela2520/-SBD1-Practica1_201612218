@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09070EAC-542E-335F-5649-25C2D5F7C827" name="Forma_Pago">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:51:32 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_forma" id="5F4C0D9E-0725-2F05-A305-EE4E9EC6F0C3">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:51:42 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="79642B97-33FD-2BAA-9427-BD8D41BF19E3">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:51:54 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA18F1FF-7A28-1DE8-76F1-B79689620C3D" name="Forma_Pago PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 06:51:53 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<engineerTo>
+<item key="0510632B-CC61-49CF-0F36-6B705496A9EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F4C0D9E-0725-2F05-A305-EE4E9EC6F0C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

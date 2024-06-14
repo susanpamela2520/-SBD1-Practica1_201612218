@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12573091-BDD1-E686-1EEB-0BE70CA4E496" name="Municipio">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 22:37:19 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<engineerTo>
+<item key="AF47F6DC-45C8-B78D-0702-4ACF12490D69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_municipio" id="CD2CBAB1-95EB-18C6-F5C4-83C600448342">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 22:37:34 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<engineerTo>
+<item key="AF47F6DC-45C8-B78D-0702-4ACF12490D69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BA956B53-E48B-45F3-C4EE-58C97052CF1F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 22:37:47 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<engineerTo>
+<item key="AF47F6DC-45C8-B78D-0702-4ACF12490D69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_departamento" id="13E4F6D4-414C-5596-D686-3C639A2E1F4F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:10:26 UTC</createdTime>
+<generatorID>0F695A5B-64B9-9EAE-30B8-20454E8F1809</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<engineerTo>
+<item key="AF47F6DC-45C8-B78D-0702-4ACF12490D69" value="true"/>
+</engineerTo>
+<referedAttribute>52112B73-6026-7EB1-FF8A-7C0780B72F92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A25CFBCE-7933-032D-3380-F0F93BA17E90" name="Municipio PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 22:37:46 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<engineerTo>
+<item key="AF47F6DC-45C8-B78D-0702-4ACF12490D69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD2CBAB1-95EB-18C6-F5C4-83C600448342</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

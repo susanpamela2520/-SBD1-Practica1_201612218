@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B71E6DC-7998-7C61-FE5C-BD02822CA93C" name="TIpo_Producto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:22:05 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo" id="E672877E-FC66-3493-8BCD-6F1477187C05">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:22:17 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="5226CD5A-3ABB-10B1-CDDE-73F385CCD306">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:22:33 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D7A066C-A3E8-F1FD-C0B9-43E908474CD6" name="TIpo_Producto PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:22:27 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E672877E-FC66-3493-8BCD-6F1477187C05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

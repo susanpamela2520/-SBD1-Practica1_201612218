@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="asignarv12" directorySegmentName="seg_0" id="A109D427-A27A-5445-EB82-20FBC5A8E6DC">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:34:41 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<sourcePk>4D7A066C-A3E8-F1FD-C0B9-43E908474CD6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B71E6DC-7998-7C61-FE5C-BD02822CA93C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94D926FB-0819-54A7-49B9-688196D2A349</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

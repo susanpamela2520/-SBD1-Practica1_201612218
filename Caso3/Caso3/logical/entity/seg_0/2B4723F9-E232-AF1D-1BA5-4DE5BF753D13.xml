@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B4723F9-E232-AF1D-1BA5-4DE5BF753D13" name="Producto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:27:13 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="A5A8341E-2EAD-484F-C578-F98C35F1CC21">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:27:23 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="7DE07E14-A1BA-9F11-886D-69D30855219B">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:35:22 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0B16B309-B2DE-3633-A056-D4AEA36B1719">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:27:23 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="C27BD0F0-EC13-3F3C-E6F1-0800E4926563">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:27:23 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_finalizacion" id="FD7B4776-D22C-9BF4-7918-4BFF71A0EA6F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:27:23 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puesto_finalizacion" id="3F8976E5-AD5A-6EC8-8B56-BCA15E696D43">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:27:23 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="F63DC69F-B164-A374-E8F3-C90794BC12CF">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:35:39 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_fabricacion" id="9EE674F6-A14D-D46E-3461-A71B766B2F1D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:36:26 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_verificacion" id="5B3FA90F-EAD3-533D-1ABC-2766F406D94E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:38:30 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_parte" id="92C105B4-8EBB-B2CF-7BA7-4B49DF091D27">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:38:55 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="635045CE-0792-9BF5-6464-267370D61DD8" name="Producto PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 06:27:27 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5A8341E-2EAD-484F-C578-F98C35F1CC21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

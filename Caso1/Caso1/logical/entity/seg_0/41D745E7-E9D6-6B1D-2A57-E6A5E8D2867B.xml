@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41D745E7-E9D6-6B1D-2A57-E6A5E8D2867B" name="Capacitacion">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:25:15 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_capacitacion" id="E1E1E647-D418-E33B-708D-61757E1E6951">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:25:28 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tema" id="1B1CAE40-1935-ED9A-6BA4-99083F5C03CE">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:25:40 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo" id="0FAC9466-EB2B-D394-2744-A9924BC19B03">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:25:53 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B5A2E13-5F10-CB6E-51B2-A7178BD2E9F2" name="Capacitacion PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:25:39 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1E1E647-D418-E33B-708D-61757E1E6951</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="742E97C1-227C-A297-3008-69DA51DC8377" name="Cliente">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:39:42 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="D162F8B5-637F-9D41-53B4-E3B6439DED15">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:39:47 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="815047A5-4232-7244-7FBA-FEF4FB6E671C">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:40:19 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="4DE5C1B5-6039-AA9E-7ECC-713035516ECE">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:40:30 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="F74510DF-4490-B374-7232-B07FF060B7B5">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:41:04 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="02CC4C37-AA48-31EA-8AEC-240AA75923D7" name="Cliente PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:40:18 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D162F8B5-637F-9D41-53B4-E3B6439DED15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

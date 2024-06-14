@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6ADB6FFC-7001-ADEB-D2D0-6973E7CC967F" name="Empleado">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>3F9A331C-E44A-9E29-97BD-B49BF68A8B07</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="6EC48B8C-7BB8-171C-814E-53F9DACAEB49">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>62FC58EE-0E13-3F27-55B8-41203585577D</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="54B76661-A277-BFEE-BD2A-8D1FC6340912">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>355D399A-779B-5963-5550-410DF1FEDC31</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="5DA1804F-EF27-E572-B0D2-931B19471CF7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>63077B9B-D1F5-1E3A-8B74-08F63CD00F97</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dpi" id="753BB398-0E18-4856-BFBB-4C3A0D2FEFAC">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>03DDC75D-9F34-B8AE-5CED-C6E8C15B10AF</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="812C9269-2DCA-55BA-FC9C-1434A35C36D8">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>89946754-921A-EF30-4868-4A49EF394393</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="938D273E-F493-5792-CA89-F999FBA75A6D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>F0AF7E1E-5DE8-60F9-E611-6FEDA715019B</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="7576170C-F046-DA06-1AAB-890D4F2C524E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>55C93257-A8C5-0094-85FF-43BEDB029505</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="B3C7E297-356E-4E96-E87D-55E56AA13060">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>F943477E-9CCD-D2E4-B51D-D0D97224C15C</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="E8AE22D4-160A-72A4-289C-F05571FEEB17">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>31D0736F-5580-7510-BCAD-5B8A738DF70C</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="1F3F80D2-DE34-EAB4-A0CD-0F2E5297B8F2">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>7AE159AA-221F-ECCA-4D04-F75448D2B1D7</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Puesto_id_puesto" id="BBCC81DE-5771-6443-2478-F640F8E150A7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>60210FD2-E409-964F-7395-7B8FDD1E2382</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F0BBDE9-6840-298E-5D1B-B3C2383E9470" referredColumn="F430CEF8-2760-8E3C-E09D-20976B9230A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2A394B5-F747-A97A-3524-983144688AE4" name="Empleado_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>7D154DDB-CB56-0A83-F7D6-681CA25E24CC</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EC48B8C-7BB8-171C-814E-53F9DACAEB49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DFFB9FC-5585-9253-8920-CC0C23A5E734" name="Empleado_Puesto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>2C616384-D70A-9058-BEC0-E45ED828D2F7</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBCC81DE-5771-6443-2478-F640F8E150A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

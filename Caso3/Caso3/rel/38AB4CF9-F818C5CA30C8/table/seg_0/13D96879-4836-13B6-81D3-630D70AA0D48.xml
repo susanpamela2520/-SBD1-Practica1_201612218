@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13D96879-4836-13B6-81D3-630D70AA0D48" name="asignar_proveedor">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>1C6C8758-91D6-F265-9F8C-3DF82FCBD3F5</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar_proveedor" id="BC36E548-6090-31F9-D1AB-63387CC39C52">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>AAB3141B-6C33-A045-E6A2-D08B4C9F064B</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_id_proveedor" id="530E4A36-6100-32F8-E6B7-F1A9FE78D3C1">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>2281EB06-F221-1300-67EB-5A2789689C57</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BD15952-C055-2BF5-A7C4-D99FDD9C88DF" referredColumn="E0148CF9-113B-6740-29D7-316FB96D8EC1"/>
+</associations>
+</Column>
+<Column name="Parte_id_parte" id="3E702AAF-C809-8597-6B9B-EDB6D0B5AACF">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>0A6928C2-FEB5-48BA-4C6F-720A7F31403F</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96205DBC-B327-6A0F-C168-E0E1F2C795FD" referredColumn="6103B976-A956-549C-B44B-354B2601D09E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A899AC69-8F5C-DD9D-59A1-C634762FB24E" name="asignar_proveedor_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>DA915A8D-97B3-6FEC-CCC4-A42AE6FBD43D</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC36E548-6090-31F9-D1AB-63387CC39C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="962E9F9F-7CEF-D47F-5871-ED2854557EFB" name="asignar_proveedor_Parte_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>11608FAB-A4F2-D036-F612-81E0C3675011</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E702AAF-C809-8597-6B9B-EDB6D0B5AACF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0987E9A9-D7FB-1784-2AA2-A575CF28F5A9" name="asignar_proveedor_Proveedor_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>8A8CECC7-1ACE-631A-414F-FF2489062696</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="530E4A36-6100-32F8-E6B7-F1A9FE78D3C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

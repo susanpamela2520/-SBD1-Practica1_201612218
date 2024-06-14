@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E36B6C71-2F62-0695-D8EF-27EF606173BD" name="asignar_seguro">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>E8032586-1DD4-B453-84A3-7050A9CA58D5</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="249348FE-42A5-ECE3-6BF4-F834C27A72B7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>A4A40E0F-F15D-D55E-EB86-99DA457C2AA0</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="FB6219E6-FC60-E40C-DEA1-5EB2792D7C59">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>66AD2A9D-FCD3-89FB-D1DB-EF1C8B62BBE1</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BA7FB31-F145-8071-C016-087B8B837C08" referredColumn="6EC48B8C-7BB8-171C-814E-53F9DACAEB49"/>
+</associations>
+</Column>
+<Column name="Pago_id_pago" id="D1AD583F-9ABA-8F85-AE0A-73AA9AD13C4C">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>5C8F5D04-75F1-7D67-E218-9E2F79AB5DC5</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58081521-8C52-C434-6315-087C3B76F6B8" referredColumn="3E098B81-BBA1-4D65-3D9A-214DEB4950FF"/>
+</associations>
+</Column>
+<Column name="Seguro_id_seguro" id="2F613D08-4B07-E9B7-789A-F7A4CBAC5518">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>A2225644-BFB5-D0D8-9E7F-93EC11CBA98D</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28BB5999-1C41-49EA-F147-F923005D4533" referredColumn="6354752C-4724-AB16-3AE1-46D1680B266C"/>
+</associations>
+</Column>
+<Column name="Cliente_Cliente_ID" id="25F225D9-2031-53AA-7A67-E12DBBB1B5A7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8ECCEC7-2F31-BC10-69F4-06B16F36125F" referredColumn="2662D8C1-3D61-9C5D-B32A-F957CC049210"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A71E0E2-3BA9-FD81-74C4-4F0B0CDD4B45" name="asignar_seguro_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>05E21EA4-A4A6-259F-A934-8E3FA0C8AACB</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249348FE-42A5-ECE3-6BF4-F834C27A72B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FFDC9DA-66B6-E7D5-CCCF-A50FE9875EC5" name="asignar_seguro_Empleado_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>09337273-E471-3C9A-828C-4D5EA63C3233</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6219E6-FC60-E40C-DEA1-5EB2792D7C59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78197EE5-187B-9478-C7E1-2DBA4CAD9B53" name="asignar_seguro_Pago_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>9ED4B43E-DA90-C0B4-2057-000606632284</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1AD583F-9ABA-8F85-AE0A-73AA9AD13C4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="714C75EE-0CEA-5A36-745D-ADA9F5D1AE7C" name="asignar_seguro_Seguro_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>F7F7009A-19A5-7914-D45C-92A69504D4D2</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F613D08-4B07-E9B7-789A-F7A4CBAC5518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF59C844-1F59-2E13-46DD-E45A08CDC8D0" name="asignar_seguro_Cliente_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>A45EDCE4-39F2-0B53-FB05-F69419C5B1F2</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25F225D9-2031-53AA-7A67-E12DBBB1B5A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

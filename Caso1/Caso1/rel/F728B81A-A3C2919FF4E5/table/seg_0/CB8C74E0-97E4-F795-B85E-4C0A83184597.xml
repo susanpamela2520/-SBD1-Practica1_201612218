@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB8C74E0-97E4-F795-B85E-4C0A83184597" name="Inventario">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>746E5EE9-2C5E-95A2-C60B-EC02BE030DA8</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inventario" id="99642902-2B3E-ADFE-EB12-2EE0F33B6616">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>B2E3C355-26D4-F616-13B8-4A526131659E</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sku" id="582D1693-FBD2-DD45-751E-20B2AF4856DD">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>BCE5BC51-13B1-BE96-EEC5-004D71F1939B</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="83B5CE53-DA7A-582C-6B49-284B6500BA1D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>2A242735-148E-2F35-BD65-EDA4B4AC4283</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="0D1B4EFD-6C7D-949D-BD57-2121496F1333">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>73363806-39BC-F536-E15D-77E69C3F4C1C</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linea" id="AA2B2ECB-57E9-91F0-308C-70BB0C71EA85">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>A501036E-1999-196E-C3CA-5831D61E5FDF</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="espacio" id="50A14E78-3FB9-59F0-6D4F-2AB033B19C36">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>C4E6BE45-1E90-D3B5-5963-B20EBEBCCC7E</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D89255D6-74D7-7EB6-81B6-511098C04966" name="Inventario_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>C84E2B9A-BD82-3B02-2D55-0135C4A47EFE</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99642902-2B3E-ADFE-EB12-2EE0F33B6616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

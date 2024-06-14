@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC8F5563-4239-56BA-BC9A-1F3BF293119F" name="Rol">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 06:29:00 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rol" id="9CEF95F7-05F5-D6F4-F3E5-C5EFC1E8E3C8">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 06:29:09 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="83EE8B1D-1FB6-9197-D7F3-F63B18B49298">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 06:29:21 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="660056BB-64FE-C421-C188-C013C04223BE" name="Rol PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 06:29:14 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CEF95F7-05F5-D6F4-F3E5-C5EFC1E8E3C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F884B29-03A4-9E32-7603-84CB540C73C1" name="Puesto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>F767FD08-1D86-6ACC-A28E-0996D9A4223E</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_puesto" id="2C6D1B21-BECD-827A-47E0-D02A0F61333B">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>BADD89BF-DF2A-9B19-926E-662E44CD2C25</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="D3C18D56-BE77-2543-5B6D-DDC647C35395">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>43AB5125-84C8-0031-5E43-70E4AC2625B6</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="B844413D-821A-8446-9864-92EF1ABFCF9A">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>45808D2A-6B71-4190-C54C-2952514B9A19</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="6B937D66-D5B8-C6F0-7A70-FDF85A32F1AB">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>D358E9C5-4AEB-6FE7-DD51-A3E7D8AFD03F</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA123EDF-8A68-E3DF-980D-5DF765BFA9DF" name="Puesto_Trabajo_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>786AD137-8A72-8946-AA87-AA3DB6923E64</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C6D1B21-BECD-827A-47E0-D02A0F61333B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

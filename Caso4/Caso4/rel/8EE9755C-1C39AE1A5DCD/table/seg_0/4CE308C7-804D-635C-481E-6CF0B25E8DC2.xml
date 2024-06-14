@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CE308C7-804D-635C-481E-6CF0B25E8DC2" name="Asistencia">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>658CFC3E-B2D0-82FE-9A7A-A4F73D6553DB</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asistencia" id="4FFDB072-4418-3CB6-055A-BBBE2BF25AA6">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>7DC14A8A-7844-A3C9-73DF-F33AD6B2A1B3</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="7558D98B-D05F-8665-E9F2-7119466E26E2">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>BACA3FC7-5CAB-3931-31CA-DB2BA9239BF5</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_entrada" id="B46F4500-010E-20E8-4094-E44D69AB6C86">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>F91C6CD7-80CA-2651-A3F3-AAD2A653E0E5</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_salida" id="BE44E95D-600E-7C28-B9B2-7E80BB9510C8">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>FA343486-1DB1-FA68-A302-0097BB60EE8D</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo" id="2A8423DC-C809-802E-B8B7-44DCBB3AEE04">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>875CF10B-BC43-3A3B-A780-5D20F6EA3EDA</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="51332EC1-4285-69B4-4621-642A68A49E3E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>E78506F5-AC36-B4E5-F0D5-7C9E4F498F77</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E4E9A45-F4DC-9DAB-0217-6631DED60CA1" referredColumn="6164C525-AA00-F4FA-4A05-50F291F163F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C4E4A21-B8B8-1296-52B9-365AB15685DD" name="Asistencia_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>AC89E17B-BB20-E605-191B-7280AEAED0CF</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FFDB072-4418-3CB6-055A-BBBE2BF25AA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="056C8758-1988-85EE-9369-9FF819E8124E" name="Asistencia_Empleado_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>A0ED0234-4DE2-B73F-AE85-18858D255910</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51332EC1-4285-69B4-4621-642A68A49E3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

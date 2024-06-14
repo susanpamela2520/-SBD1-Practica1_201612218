@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B992780D-0C46-F869-C6F0-73D4061D4698" containerWithKeyObject="79E6B841-526B-54FD-7578-827F32A36591" localFKIndex="70BEFEE2-36B6-B66B-9C60-A0C13B9A38BA" name="Transaccion_Sucursal_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>1981DFD1-A616-DE9D-D46F-99CBD40A0B50</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<referredTableLongName>Sucursal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>188366F5-D361-CB8F-6A24-75472407F2FD</referredTableID>
+<keyObject>5886D55E-2E73-462F-8E84-90D5B8EAF408</keyObject>
+<referredKeyID>5886D55E-2E73-462F-8E84-90D5B8EAF408</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sucursal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

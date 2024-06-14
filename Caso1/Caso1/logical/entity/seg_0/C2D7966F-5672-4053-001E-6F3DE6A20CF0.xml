@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2D7966F-5672-4053-001E-6F3DE6A20CF0" name="Falta">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:18:11 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_falta" id="9930A77C-E0F5-E99D-D8DA-18473993B2C2">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:18:19 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="6D5960BF-76ED-D7D1-5AC0-F8441C09660A">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:18:30 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="incidencia" id="4235049A-469A-F20C-98FD-9087F02DE967">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:18:47 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_falta1" id="5C873E7D-51FA-885E-130E-40730193221D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:34:10 UTC</createdTime>
+<generatorID>482DE62D-1DF9-632B-C271-7CE74C8D366C</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<referedAttribute>DC5A4EB7-AE75-76B4-2E3B-D44954907EAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="81EA7FF1-5960-67F1-260E-E0CA913F961D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:34:24 UTC</createdTime>
+<generatorID>02144D5F-7120-FFF7-2D4B-F79139AFABD9</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<referedAttribute>20287EC5-3734-AD9B-2144-0E4CD7CA2741</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E903B0C-E276-CC86-4BD5-76EC5E02244E" name="Falta PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:18:29 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9930A77C-E0F5-E99D-D8DA-18473993B2C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

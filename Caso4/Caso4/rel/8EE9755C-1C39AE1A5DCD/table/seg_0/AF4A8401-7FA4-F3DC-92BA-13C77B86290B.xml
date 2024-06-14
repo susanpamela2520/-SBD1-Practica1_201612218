@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF4A8401-7FA4-F3DC-92BA-13C77B86290B" name="asignar_boleto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>17AAA93B-3091-8D6F-6915-30452AAE74E7</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="DB0356E5-8025-EBA4-AB45-501A8E3F4A0E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>C4253D2C-939A-791D-4ED6-4892D3F91E57</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pago_id_pago" id="07C80DC3-1B3E-F7B5-198E-9E9A781A74EB">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>07472BC9-69BA-0790-5D88-0BD85F1EA388</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="517EE0C3-9AB0-0173-8375-7B853A89FDEB" referredColumn="890E366F-912E-906D-E876-FD01AA282C79"/>
+</associations>
+</Column>
+<Column name="Boleto_id_boleto" id="386063E3-7225-E6FB-1E30-6AF754021E6A">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>DA2275B7-2EC9-D3CA-1923-11CE431E09DF</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81FAED91-4C06-A8BF-DB18-6570C89FE942" referredColumn="F8205DB9-BEDF-BAA2-4DC7-301F382123A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC6E1742-EDE5-8936-B01A-8E84E1B3F5B0" name="asignar_boleto_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>157A1344-AA02-00ED-236C-B51735DCA080</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB0356E5-8025-EBA4-AB45-501A8E3F4A0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E84A1D0-566F-F651-1574-3C3E1B08C978" name="asignar_boleto_Pago_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>62F6BD84-A74E-C6CD-74E7-4886009B8D57</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07C80DC3-1B3E-F7B5-198E-9E9A781A74EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF8648D0-7828-C229-037E-2AD9124A9DD0" name="asignar_boleto_Boleto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>809B2CC3-1C1E-A9E5-4E3E-15901EAE56AE</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="386063E3-7225-E6FB-1E30-6AF754021E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

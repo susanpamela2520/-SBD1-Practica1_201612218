@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0DE01A1-A1FA-8033-17DA-9A98E3FF22FD" name="asignar_meca">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>42CB9F1D-7B8B-D0D9-E2D5-0F298E8C7F9F</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="3DF25236-2996-D608-A3A4-97458CC78207">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>1D615BB6-DEE0-7072-6BF4-C40F9B7B2DE5</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mantenimiento_id_mantenimiento" id="805D9FED-75C9-3774-1F2A-C73EB3ABA0B7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>7ADC016D-9A96-5E2F-FF40-49A69A276542</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50A9A9A6-B133-47AB-D328-84EB9D9F547E" referredColumn="2E6DD3FD-97B0-621A-905F-41692D3E8877"/>
+</associations>
+</Column>
+<Column name="Empleado_id_empleado" id="12A8FE90-B99A-AF20-7DB3-4909034632B8">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>69158368-7BA1-0005-8ECA-82222F50EAE3</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D35B85E-B791-6B61-0104-D3F2E9D20249" referredColumn="6164C525-AA00-F4FA-4A05-50F291F163F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7BD73A7-CD38-EF42-A6E8-2203FC982AE3" name="asignar_meca_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>28556820-0290-2806-C85B-C5BF6E0BDB07</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DF25236-2996-D608-A3A4-97458CC78207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7219D6C1-078E-5A14-A282-24A483C1CE7E" name="asignar_meca_Empleado_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>A8DE2C76-BB5E-F929-FB24-675EFBE72BCA</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12A8FE90-B99A-AF20-7DB3-4909034632B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5199958-4E66-38F1-A375-10316705D903" name="asignar_meca_Mantenimiento_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>42BCF66F-55BC-D86C-B40E-B83B5BFEAF0B</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="805D9FED-75C9-3774-1F2A-C73EB3ABA0B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

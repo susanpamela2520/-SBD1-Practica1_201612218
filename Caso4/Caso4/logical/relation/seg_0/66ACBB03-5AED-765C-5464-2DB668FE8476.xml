@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mantev2" directorySegmentName="seg_0" id="66ACBB03-5AED-765C-5464-2DB668FE8476">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:19:08 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<sourcePk>C2508DD9-2BCC-7940-A8BB-820DD599059B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7BC9504A-C8EE-EC0A-ECC1-480E1BC9DCD6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6218EE9D-D106-82B2-9A7B-3DB64DC4C12B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

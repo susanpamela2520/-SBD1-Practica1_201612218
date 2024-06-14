@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0C76A56-49C7-FAAE-1F67-5E706090494B" name="asignar_prod">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>1874DE92-18EE-A7FF-3829-4B1C529A661D</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="4ED3C543-4769-F42C-781A-0D3D7D1A8480">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>46AA70A4-227C-15BD-5216-CC506C47DFA1</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_id_proveedor" id="3A46255A-60EB-3805-B50D-6174EB10C709">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>4B0D3514-7AE2-BFBA-CBE2-AC78B316EC2C</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FA50222-40A4-F6E7-8516-A510852FD85C" referredColumn="00B1ABF9-7E53-9D19-432E-1CF1494C8FFB"/>
+</associations>
+</Column>
+<Column name="Vehiculo_id_vehiculo" id="1EDCEBD9-82F4-23BE-FB67-AE3E1841C349">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>6F5EDA9C-7EF2-D65D-5019-5D7AA7C8A20C</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3CD1795-336F-F852-5C5B-C745CD8286F1" referredColumn="A92BC427-31A6-90C4-28DE-9853E9520B50"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E330083-A9AD-63E2-5920-A21E5E5FEA8C" name="asignar_prod_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>5CC422F2-6765-4D94-D07B-7BBCEE3841F1</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ED3C543-4769-F42C-781A-0D3D7D1A8480"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F039DEAF-3617-1BFE-CB55-A53D23CF1EAA" name="asignar_prod_Proveedor_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>E0DE6F5F-B433-0CDB-FCD2-43B477DEC29D</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A46255A-60EB-3805-B50D-6174EB10C709"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16018D67-D57E-DF70-9A45-417CAC719E37" name="asignar_prod_Vehiculo_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>CC815678-BE64-1EA6-1482-FD53EAD58DB6</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EDCEBD9-82F4-23BE-FB67-AE3E1841C349"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

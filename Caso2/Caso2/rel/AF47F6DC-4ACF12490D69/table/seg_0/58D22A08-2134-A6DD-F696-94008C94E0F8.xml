@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58D22A08-2134-A6DD-F696-94008C94E0F8" name="Empleado">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>C2887B82-754F-76DD-054E-ECA8B7237940</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="ADC68D7F-88B4-6AD8-C38F-C3F62DE5F82D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>0E4BDE7C-C78E-AF7A-7D9A-5A450B3C62CC</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6DFE5185-D242-8DF2-B952-4934D1FD0BE3">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>964661EC-591F-149D-7E72-7D2C9BABDA4D</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dpi" id="E2320944-847F-73A9-813E-42BEDAF3547A">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>78159CDD-05B3-ABFD-E543-E27257DEB935</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nit" id="F4BF7166-F958-91D2-3CCC-B437A454C66F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>F991EFCD-249D-FAFC-20DA-43967C605AD2</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="B55CA65C-57D4-2937-0143-41ADCE100269">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>A0C924E1-247E-FED6-BCF7-D1ACC816F201</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo" id="C20A27D2-9CE0-2678-FC16-D114A47CAA0F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>0E0C4E1C-E133-F157-5063-59E0EE51F317</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="4174B3CB-8B9B-ADBF-4D08-2873EE3D3714">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>F8C1A5A7-CB50-AFF7-6254-6C6DFDEC6180</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CB4ACAC-1288-54B7-C1CF-F3F779C0A24F" name="Empleado_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>7181631A-9777-8C1F-131B-075D2DD4FB13</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADC68D7F-88B4-6AD8-C38F-C3F62DE5F82D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

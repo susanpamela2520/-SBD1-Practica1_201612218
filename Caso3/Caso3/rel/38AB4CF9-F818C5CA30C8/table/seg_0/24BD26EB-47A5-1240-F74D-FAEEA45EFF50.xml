@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24BD26EB-47A5-1240-F74D-FAEEA45EFF50" name="asignar_soporte">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>DF58F241-5595-4DDC-991E-3446B84DAB93</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="BD69FCD4-CCF0-AD7E-6D75-BF0C435EA594">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>7B08B7AC-9359-94B5-18B2-FC8704323CB7</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_id_cliente" id="9A696340-333D-72DF-EFCF-76030C94AEB7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>0EAE0F18-6E22-343F-70B5-A3173F8F1E87</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85DF68B7-A565-FB32-867B-CEB99783C4DE" referredColumn="053585A1-3CCA-A182-221E-A79F3DB8CF5E"/>
+</associations>
+</Column>
+<Column name="Soporte_id_soporte" id="4E8E2785-1FB0-22BB-EE29-BA0CC61F4852">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>72D7EB73-93EF-4C7F-00E6-0F7F872E2310</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BAFD72B-3F38-1633-6098-2E61E843BD3B" referredColumn="385F8416-93CA-039F-87CF-DDAEC0EEF857"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A80002B-CE11-B877-63B0-452DDDAA2576" name="asignar_soporte_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>3CFDA874-1B26-7262-B075-3861F93B0F3A</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD69FCD4-CCF0-AD7E-6D75-BF0C435EA594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67726F9B-6456-EA58-2565-BF4E4AAC1FA5" name="asignar_soporte_Cliente_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>6E96B7E2-9872-3577-F72F-8D85B499B51B</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A696340-333D-72DF-EFCF-76030C94AEB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="345C7078-1FFC-C297-C6DA-02AC2AC48CAE" name="asignar_soporte_Soporte_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>4DF850ED-F5C0-84A4-D172-6F3878ADFC43</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E8E2785-1FB0-22BB-EE29-BA0CC61F4852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

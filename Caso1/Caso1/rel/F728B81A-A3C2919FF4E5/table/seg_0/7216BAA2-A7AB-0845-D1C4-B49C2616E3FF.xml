@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7216BAA2-A7AB-0845-D1C4-B49C2616E3FF" name="Producto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>94D926FB-0819-54A7-49B9-688196D2A349</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="EE038F1E-0C8B-3224-7274-EE8FEB51B294">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>349F85AF-5D7C-B7E3-070D-8CCA880DC1DC</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="5FE69EB1-D6BA-6D8C-8A0D-5CB53060A4FD">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>2E8DFD82-2D2A-5223-1695-DFC8B593B3F4</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="9318FFAC-9D2D-B3EF-CCB6-A4B57137887F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>3B748CC7-E5AE-717B-FA3E-65ACB1582D04</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="F375F34A-750B-4175-0091-8D023F72B817">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>C6443E6D-EA8C-18C3-6E13-65A6D79B449A</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="1976EB9A-F723-AE8B-98C9-BA5E6BC537B6">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>7F54A490-A5CB-1FD8-E910-39A5A34811B2</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIpo_Producto_id_tipo" id="7B14FE2C-5CFC-4B5A-9AD3-BDDF41DDE526">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>0A7AC226-B829-CAFE-9E57-8404AA8B13CB</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCAAC7CC-9BC9-04E4-4EDC-05AC1CE3630B" referredColumn="2612C150-CD85-9357-779F-15355E4CF64F"/>
+</associations>
+</Column>
+<Column name="Proveedor_id_proveedor" id="6EF1ED38-9B7E-9780-84F2-36AA102EED03">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>CF3FF9FD-B850-E71E-9F67-DDAAD066BB70</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="420A0F8A-103D-297B-9CB1-61A19B1D8215" referredColumn="2A5C7C5A-943C-C824-EC8B-6EF716F49D8E"/>
+</associations>
+</Column>
+<Column name="Inventario_id_inventario" id="B01CE652-7BB5-7137-B0FF-05A946839F76">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>7B4638DA-BD60-02A4-7AC8-6B8F42FF6809</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FAA35D1-56EF-9146-131E-1C3B8CE6D0BD" referredColumn="99642902-2B3E-ADFE-EB12-2EE0F33B6616"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96E1739B-172B-6629-A34F-FE5F85B0325C" name="Producto_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>4DBDAB63-1748-33A0-0B24-FC48FB925870</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE038F1E-0C8B-3224-7274-EE8FEB51B294"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15E04EEB-427C-1E02-F03F-0A10034F4B46" name="Producto_TIpo_Producto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>A109D427-A27A-5445-EB82-20FBC5A8E6DC</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B14FE2C-5CFC-4B5A-9AD3-BDDF41DDE526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46285DA8-3A46-F476-1F9F-9312A968EDD5" name="Producto_Proveedor_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>616B8F7C-D101-5A47-8542-45F110CFE3E7</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF1ED38-9B7E-9780-84F2-36AA102EED03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FBF8D41-AAB2-9AD6-CCEA-E0ED1DCC1973" name="Producto_Inventario_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>E2004F65-0BC2-8C2F-B0D7-509F4B3D7287</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B01CE652-7BB5-7137-B0FF-05A946839F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

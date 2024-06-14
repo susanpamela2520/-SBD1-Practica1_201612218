@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2A694FD-D858-2AA4-CE6F-27D4637ABB4A" name="Pago">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>C712E5DD-2C54-4EBF-DA2C-8CE41BCEFD66</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="890E366F-912E-906D-E876-FD01AA282C79">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>1B930D57-232E-185D-E2A5-309B871E9384</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_tarjeta" id="EFA15DBE-5D73-3AC4-B2A0-7B8FB81D2CE5">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>E369A5E6-FD4F-6AD9-58F2-C537BB5D8269</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_tarjeta" id="D55EDA9B-25CD-42D3-4325-456DC98D7977">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>CFCC6C1E-A3F0-E01B-4ECF-86804BEAE3B8</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="0357A722-C768-DA0C-31B8-80FDD5D8072E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>1D8DA271-FB5C-2FF4-CEA1-DBF7A780CF38</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="737C0C2B-929C-272A-719C-F95555ABD0B2" name="Pago_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>F8BED308-B8C7-1150-C60A-9C60FE18ABC4</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="890E366F-912E-906D-E876-FD01AA282C79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

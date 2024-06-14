@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C34FC338-3BD1-C675-CAA8-9C62D536DD67" name="asinar_linea">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>9E31F999-6673-757B-0E62-8C7391E81004</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asinar" id="2A114773-B053-1A2A-3299-46E903A12EF9">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>36415868-1222-C1BA-1B00-69B798068E45</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_id_producto" id="F01FF710-02A9-21E0-B09D-0ADC6459988D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>9AE8A556-F55A-59CA-B1DB-F4FBDEB2949E</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70FCE070-3ACD-09A7-D45D-686196D0443D" referredColumn="25CF3937-B6C0-BDB7-86D2-FFBFF3B72756"/>
+</associations>
+</Column>
+<Column name="Ensamblaje_id_ensamblaje" id="49C41C5E-64BB-95F7-8D19-37A48419F144">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>E6C87167-870D-032F-017B-81AD7C635171</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0D1F18E-885E-248C-89E8-6B2F06D3D676" referredColumn="29B8DC85-2EF1-5E03-7046-B1BF3D39E214"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57C23FC7-3BAA-84E2-ABA1-4DD91D7F4390" name="asinar_linea_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>3A3C71E9-2D6C-118E-FF40-DB28B9364D59</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A114773-B053-1A2A-3299-46E903A12EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D631DE9-D2A7-B504-7419-8093D05F5B15" name="asinar_linea_Producto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>3008452F-2516-CD1D-B567-A73A3ACE5351</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F01FF710-02A9-21E0-B09D-0ADC6459988D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16A9AE59-F70E-DB33-B3CE-F89D170CC43F" name="asinar_linea_Ensamblaje_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>A8B60512-8243-8670-FF33-D6B08481A9DE</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C41C5E-64BB-95F7-8D19-37A48419F144"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFD0F97A-D566-1DBC-E43B-0393AA789F6C" name="Viaje">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>0DA3146C-ABF7-AB64-65DB-CBF099E2705A</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_viaje" id="164E279D-20CB-53EA-5070-8AC87AFF6D03">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>D86892D5-09AE-B374-98C8-6EF6261A2E8E</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_pasajeros" id="93D763D9-265D-A0A5-EA06-6FD8B6427C31">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>4C9D8F77-EB87-107C-C41A-993D28908C46</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_despegue" id="4C5FC271-F844-F635-87C9-8C2B2C6DBC4E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>0F95EA53-F33D-1178-D332-A5E9E2761DD5</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_aterrizaje" id="C6050B6F-838A-110C-BEE5-82F6CEEDB5A7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>C68253D4-8B4B-5E21-D2FD-B8E92BDBD6C8</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tripulacion" id="65EE639B-DDA5-2060-FC96-6720FB5F196C">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>35ABC55B-E6C8-BF62-947B-B2AC3B4ED91A</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais_despegue" id="E761505C-9D4F-45E8-6F47-E1DECB396ED3">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>2AAE158A-B383-3601-DBF7-25ED0295AD82</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais_aterrizaje" id="9BB4E6DD-32B3-B480-FF62-25ED11B9FD3F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>46A01152-F33F-7E8A-2EF1-DFBD608AAB82</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_despegue" id="15C8FE01-F6B4-C2AA-67CA-B3B4F8615D73">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>965271EE-71C7-23A5-11C8-2B9824B91477</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_aterrizaje" id="796A6F65-F0C9-B143-7DD2-C6FF649DB995">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>5B349108-BDFB-870A-14DE-F579FF75B9C7</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avion_id_avion" id="71D96924-2820-E75B-6A96-65B11DD28449">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>ED376631-6352-E5D1-06F0-26E1D57D36FE</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C746C5DD-9AF0-991D-EA47-2A9C1D58729F" referredColumn="79A2D5AA-019A-A994-123F-2022F523E622"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FAFA781-4CA0-6A03-B79F-9696EDC0795B" name="Viaje_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>6CDE2F6C-C3A7-DC24-0DB1-54E69CE3A0D1</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164E279D-20CB-53EA-5070-8AC87AFF6D03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F2EEF72-8DFD-9173-D472-DD9EF4F2D1CD" name="Viaje_Avion_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>B89B5F61-88BB-7DEC-B32F-CC3384F27BCC</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71D96924-2820-E75B-6A96-65B11DD28449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB7109C6-80CB-1545-7894-E436C2E5E2FC" name="sucursalv1">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Municipio_id_municipio" id="987D8971-48A0-C7CF-0F84-9EF9C0399D80">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD76B645-C232-DF7D-9541-DD49A346621C" referredColumn="E3BDE6B2-0D7D-E353-D0B1-34F5E8518DCF"/>
+</associations>
+</Column>
+<Column name="Sucursal_id_sucursal" id="80084FD9-EC08-C624-3D4E-CB55D8447308">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="914D3C5F-8F40-9AAF-77EC-6ED50E02C7BF" referredColumn="139A8084-ED83-297B-CE68-0726D6BF732B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="532787FA-2B2A-914C-72C9-E3AD64F998A8" name="sucursalv1_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="987D8971-48A0-C7CF-0F84-9EF9C0399D80"/>
+<colUsage columnID="80084FD9-EC08-C624-3D4E-CB55D8447308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABDD8E52-7948-3EF9-A51B-9D0317A4D569" name="sucursalv1_Municipio_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>9F3316DD-FF2B-1232-8D66-558226642A27</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="987D8971-48A0-C7CF-0F84-9EF9C0399D80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FA62B80-926A-F48D-2C2F-6E1D045F6ABC" name="sucursalv1_Sucursal_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>9F3316DD-FF2B-1232-8D66-558226642A27</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80084FD9-EC08-C624-3D4E-CB55D8447308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

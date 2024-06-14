@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30B44C82-C645-48CB-BDF1-EF762D586738" name="Tienda">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>8F16D85E-4385-0557-4BCA-29CAE736F9EB</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tienda" id="13F474BC-0989-3A7E-EE2B-D065A1B15D1A">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>12A9BC16-C087-8C90-19E8-A32EBBF564A8</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="A84A78DB-F44C-6C3A-6A09-F0B6F5AC4227">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>05EBF170-C7EA-411D-0F99-1F9EF3FA547D</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="C8E0FDDA-A591-B050-AAFC-5EDE0DB7A2A7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>7AABC423-CA07-C540-001F-9E8CCFA4C7D8</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriptores" id="E9E27536-F6F5-04EA-7D0C-3C0B221DE151">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>C29748ED-4E0C-8CDA-E89D-CAD95942BB08</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_id_departamento" id="E01A21E9-3045-7234-A340-E9D916B5B894">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>8B539EF1-4A48-5BD8-6134-D528FFA07AF3</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2031118D-8D2A-2C65-C35C-898E6874ACB8" referredColumn="292743B7-6073-98BB-C374-0099C9B29DD1"/>
+</associations>
+</Column>
+<Column name="Tipo_Tienda_id_tipo" id="75857719-3500-FA9E-19F3-05274229D8A0">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>31124071-5439-3913-0E5D-16A6EE8BFDA9</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4863EFC3-D9F6-5CE5-DF80-BE86E48B250B" referredColumn="A9CF67E0-D753-2BFC-9B60-6AAC045E91F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56967E9D-2FF2-8D72-E009-BE88E8DC82B2" name="Tienda_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>261EC367-FDC7-EB5C-F025-6DB91D65CC52</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13F474BC-0989-3A7E-EE2B-D065A1B15D1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4485188A-D938-F6CC-A0DC-99B0340B17E4" name="Tienda_Tipo_Tienda_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>2FE772F1-04CC-F593-55F8-DA5A8C9FF1B0</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75857719-3500-FA9E-19F3-05274229D8A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51818BA0-27A5-18CC-1950-BAE837DC4D72" name="Tienda_Departamento_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>3B3037FA-4807-4A37-2E3A-AD54E5D38442</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E01A21E9-3045-7234-A340-E9D916B5B894"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

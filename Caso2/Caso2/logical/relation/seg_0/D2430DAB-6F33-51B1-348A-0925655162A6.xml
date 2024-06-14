@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="inventario" directorySegmentName="seg_0" id="D2430DAB-6F33-51B1-348A-0925655162A6">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:12:33 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<engineerTo>
+<item key="AF47F6DC-45C8-B78D-0702-4ACF12490D69" value="true"/>
+</engineerTo>
+<sourcePk>4C0FB10E-32D7-D2D3-F8D6-0CD83C68C957</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>379FD8DD-8574-3553-BF81-0F3112323A9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>48A1FA07-BCD1-FDB8-0DBA-B6AB13BBA880</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

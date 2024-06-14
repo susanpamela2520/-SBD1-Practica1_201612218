@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="457AC538-E66C-2BD4-394B-B6FDEA7FE206" name="Puesto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>D44420EC-3D9C-5516-285F-8988991E6B32</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_puesto" id="F430CEF8-2760-8E3C-E09D-20976B9230A4">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>B17C3F13-223D-027B-6623-05AE6A6E86A4</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F6C3E3D9-48FA-3688-9B5C-037102B1F355">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>80E89804-69E7-43E2-0C26-41F06928A668</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_Departamento_ID" id="826BE5FA-5E86-6233-9B73-7240D58E164F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3476F1E9-B08C-286B-44A4-2CB01C9EB859" referredColumn="62E27C28-F0BF-5D46-471A-3F145B44C876"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A54CB31D-6329-7C2F-B265-E080FA9C0AD7" name="Puesto_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>49ACB2BD-F69C-5066-1F6A-56F9401DD247</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F430CEF8-2760-8E3C-E09D-20976B9230A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75775CC0-9305-8DBE-6943-FC3C5C2CAAF8" name="Puesto_Departamento_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>3482A342-D8E6-6AAC-443B-2307EDB5ACAE</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826BE5FA-5E86-6233-9B73-7240D58E164F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

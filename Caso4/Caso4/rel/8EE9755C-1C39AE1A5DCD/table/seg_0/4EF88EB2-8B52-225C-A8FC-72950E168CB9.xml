@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EF88EB2-8B52-225C-A8FC-72950E168CB9" name="asignar_bol">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>261C56E0-0635-DBB8-57E1-0502934EFCC0</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="38422995-1B33-4954-E190-830633406A71">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>A61A43D3-2B4A-FBA9-677F-5955FDA9CD23</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boleto_id_boleto" id="0C855782-197F-0943-5130-1B935C057D99">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>3EBF2E6F-E3AD-F62A-B707-B8603FCCC95E</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49BC83C4-54AA-B82C-DA24-268CB63AF5FF" referredColumn="F8205DB9-BEDF-BAA2-4DC7-301F382123A5"/>
+</associations>
+</Column>
+<Column name="Cliente_id_cliente" id="22F8C2E6-164B-313B-3101-C906D3D26050">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>0E5FEED1-36D5-770F-DF58-D94F7EC3403B</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8486833C-B975-0B94-9697-2893B8CA6A12" referredColumn="47D409A6-D8F5-7925-15C5-F16AABEC4244"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56B932FA-AEAF-6790-524C-ABCAAF69B32B" name="asignar_bol_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>13C373D8-FE9C-F74B-9C54-8A10B97CD6D7</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38422995-1B33-4954-E190-830633406A71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7CA51A5-05AA-3149-AC76-DC962D4838A8" name="asignar_bol_Boleto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>FE4EC20A-1977-05F7-DAA8-9FACD50C8F7A</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C855782-197F-0943-5130-1B935C057D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01A84AD3-F5D9-3CEC-BE57-4EAC8404D6F8" name="asignar_bol_Cliente_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>1026094B-6E34-D13F-D0F8-63CDAFC51F40</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F8C2E6-164B-313B-3101-C906D3D26050"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FCF2526-2D2A-6493-6181-9C8C3D5A258F" containerWithKeyObject="05DEC645-3081-B7DE-A751-B9D8682EBC30" localFKIndex="38F3E393-F176-8935-120D-C51E2F96C43D" name="asignar_puesto_Puesto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>150D5709-13DC-07F7-2F3E-5D2AE5B3D618</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<referredTableLongName>Puesto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4F884B29-03A4-9E32-7603-84CB540C73C1</referredTableID>
+<keyObject>FA123EDF-8A68-E3DF-980D-5DF765BFA9DF</keyObject>
+<referredKeyID>FA123EDF-8A68-E3DF-980D-5DF765BFA9DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_puesto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

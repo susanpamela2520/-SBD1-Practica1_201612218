@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8486833C-B975-0B94-9697-2893B8CA6A12" containerWithKeyObject="4EF88EB2-8B52-225C-A8FC-72950E168CB9" localFKIndex="01A84AD3-F5D9-3CEC-BE57-4EAC8404D6F8" name="asignar_bol_Cliente_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>1026094B-6E34-D13F-D0F8-63CDAFC51F40</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<referredTableLongName>Cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9054AFB-01D5-5449-75B7-22277D4ADC60</referredTableID>
+<keyObject>38D82041-724B-B02F-7743-2FBECDEDB9B7</keyObject>
+<referredKeyID>38D82041-724B-B02F-7743-2FBECDEDB9B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

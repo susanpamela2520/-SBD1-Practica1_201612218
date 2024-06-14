@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D24D883-8067-0B59-418A-A86BD9EF867F" containerWithKeyObject="178A2095-0BB7-A813-26EE-6CB983A690CF" localFKIndex="436082C5-5D4A-6F4E-45BD-4B24FD560A59" name="Falta_TIpo_Falta_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>482DE62D-1DF9-632B-C271-7CE74C8D366C</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<referredTableLongName>TIpo_Falta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>51A696F7-1595-51FF-F4AC-029931E43D61</referredTableID>
+<keyObject>1D42B8D3-C613-68A9-CE10-8FF85665783F</keyObject>
+<referredKeyID>1D42B8D3-C613-68A9-CE10-8FF85665783F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_falta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

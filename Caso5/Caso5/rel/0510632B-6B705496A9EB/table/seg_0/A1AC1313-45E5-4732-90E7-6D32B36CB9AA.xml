@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1AC1313-45E5-4732-90E7-6D32B36CB9AA" name="Seguro">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>40EE31AA-BC55-E211-22C6-9F1C8B11EF06</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seguro" id="6354752C-4724-AB16-3AE1-46D1680B266C">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>61C7A424-5057-E22C-4AFA-EBEC2E7A955F</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="papeleria" id="CA93849E-7612-91B0-800D-DFCF8FEEA543">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>5502CDCB-78EA-5A08-D7C4-34A2EEE62D27</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_id_tipo" id="72F681AB-6667-B938-EA6F-B66CB524C720">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>1E1D617B-3EC2-3A24-2122-FDC7E0026EB5</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55BE640C-3A1D-ADA4-0949-40034DAE6708" referredColumn="1345470A-55F6-50C7-642A-1A3F8BCB0769"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="356FF970-31AD-908F-CA00-982F93C5C8A6" name="Seguro_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>A23B5504-07EC-3F09-3407-D4811C2B5924</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6354752C-4724-AB16-3AE1-46D1680B266C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13B06976-687A-1543-A4D3-E45F2A0D34F9" name="Seguro_Tipo_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>A0BAD83A-EBA8-65BD-2E15-0F3BF53B7EF3</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72F681AB-6667-B938-EA6F-B66CB524C720"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

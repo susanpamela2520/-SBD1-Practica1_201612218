@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BBC567D-8598-4A87-C180-0B280612E74A" containerWithKeyObject="9FD4159E-B7FE-5171-F09D-0A6FBF23600D" localFKIndex="643525E0-7538-11D6-0F1A-9D37C604FD43" name="asignar_emp_Historial_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>260B9BE2-F496-0926-10FD-D26A3063BE42</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<referredTableLongName>Historial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>374E98DE-1BC2-C0CB-BA6E-E3E7962AAE1D</referredTableID>
+<keyObject>3E8E2386-9193-3C80-98FF-51578DB3AB0C</keyObject>
+<referredKeyID>3E8E2386-9193-3C80-98FF-51578DB3AB0C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_historial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

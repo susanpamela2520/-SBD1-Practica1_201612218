@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E1897EE-3A77-992F-9B5B-6C98BE4D2764" name="Llamada">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>82F5F53C-3E8C-7660-8125-5D3634AF5157</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_llamada" id="890C8B7C-C966-13AD-8985-8E5F1FDBD197">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>3D40765E-BB15-053D-5EEC-E84B03C95100</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="73CF182F-F451-7732-B49A-D9F53ECEB48E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>3726318E-3F63-6A2F-6756-461E9467279E</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="B9CB8B3C-D1D5-455C-586C-6218FE29DB5F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>98134725-A769-B9E0-47BA-CBE348083948</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion" id="4F47DB8F-A253-4A96-7877-2F2DDC5E3B7F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>969B022B-DDAA-C90B-FEB7-7E9D51A5F3E7</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="C9A9F681-C016-DD97-728C-33948630088F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>A864148F-3D8B-CBE7-62B9-70901FD88245</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28491CD2-4BFF-14E6-8F00-4480DF47DADC" referredColumn="6EC48B8C-7BB8-171C-814E-53F9DACAEB49"/>
+</associations>
+</Column>
+<Column name="Cliente_Cliente_ID" id="38F02644-B820-E6F6-847B-7775E8D28F50">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="10044396-BD87-3D61-BB6A-39325B7D371F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:07:49 UTC</createdTime>
+<generatorID>40518221-4A94-2634-2909-85ED5F12528C</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BFDE1FD-4680-BF75-15A3-E65CE827FD47" referredColumn="A6FF5CE6-A1CD-711A-6A78-B728236313AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="028C11D2-F94B-801A-9EA0-0AA1C2D74CE4" name="Llamada_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:53 UTC</createdTime>
+<generatorID>AC953DE4-5799-54D8-2F0D-5C4E7542E84A</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="890C8B7C-C966-13AD-8985-8E5F1FDBD197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E87E2994-79A0-2220-E13D-1D21CAB92F92" name="Llamada_Empleado_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>B93A3874-562B-3E3D-6DAA-D08CA72E0786</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9A9F681-C016-DD97-728C-33948630088F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB417E9F-45FA-0EDC-A39D-F89575D5305D" name="Llamada_Cliente_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 07:06:54 UTC</createdTime>
+<generatorID>0470640D-D294-1F5D-F8DC-076778F1D301</generatorID>
+<ownerDesignName>Caso5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10044396-BD87-3D61-BB6A-39325B7D371F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

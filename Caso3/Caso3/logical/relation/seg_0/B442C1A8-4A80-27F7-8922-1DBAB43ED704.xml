@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipov2" directorySegmentName="seg_0" id="B442C1A8-4A80-27F7-8922-1DBAB43ED704">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:52:43 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<sourcePk>AB5AEE61-BF6E-DEC8-7A96-9EED227C96E5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E278197-3387-22E4-D1A9-F0816B13E899</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AF0E9819-C2A9-FC2D-7F3D-66771102B7A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

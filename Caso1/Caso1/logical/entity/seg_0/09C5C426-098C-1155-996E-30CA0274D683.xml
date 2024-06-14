@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09C5C426-098C-1155-996E-30CA0274D683" name="Asignar_Tienda">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:35:21 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asiganr" id="4A48ECF4-3635-781F-61BD-C829F6A60240">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:35:31 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tienda" id="981F7754-682E-AB0C-9B9F-E9892B7A13EC">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:35:53 UTC</createdTime>
+<generatorID>A19EE6E3-3B73-7CA2-610C-6A923F352B21</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<referedAttribute>12A9BC16-C087-8C90-19E8-A32EBBF564A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_inventario" id="FA74DB6F-DAD6-C863-3604-A4E7223B1F82">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:35:59 UTC</createdTime>
+<generatorID>E6FB7EEC-ED1C-0DE3-6B56-A2D3BA678F6E</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<referedAttribute>B2E3C355-26D4-F616-13B8-4A526131659E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC50B750-3E9A-B13A-B249-BC0003D2FEC6" name="Asignar_Tienda PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:35:37 UTC</createdTime>
+<ownerDesignName>Caso1</ownerDesignName>
+<engineerTo>
+<item key="F728B81A-9494-B067-00D2-A3C2919FF4E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A48ECF4-3635-781F-61BD-C829F6A60240</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

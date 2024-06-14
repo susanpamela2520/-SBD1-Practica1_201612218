@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05DEC645-3081-B7DE-A751-B9D8682EBC30" name="asig_puesto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>05A86137-DCB5-0220-7BD2-A43D99D26CB4</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="828B5927-0E76-CE07-AD2F-229AF9A7B770">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>20856A6C-04A2-24B2-19FB-5D76F57470A3</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ensamblaje_id_ensamblaje" id="51DE4626-AD3D-1B3F-BADF-C0F1117841EF">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>4BD8A0EA-C4E6-EEC9-9D21-CF8D71474C62</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE3BD33B-B0A1-57AF-F895-0F275BF05B68" referredColumn="29B8DC85-2EF1-5E03-7046-B1BF3D39E214"/>
+</associations>
+</Column>
+<Column name="id_puesto" id="8F999A7C-D82A-CFE9-6718-7ED4BC097A97">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>34F45E44-170E-0D3F-3F18-B4073AA33DA5</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D22E0FB0-9A31-21E2-4BC6-8E55D9497081" name="asignar_puesto_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>61C2B87F-F9C2-A1C8-E5E3-9FB7C76622E6</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="828B5927-0E76-CE07-AD2F-229AF9A7B770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2F9EB27-AEFC-846A-8212-2C2854409608" name="asignar_puesto_Ensamblaje_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>8DC2E317-5CD2-6D69-2961-BB649142D5BB</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51DE4626-AD3D-1B3F-BADF-C0F1117841EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

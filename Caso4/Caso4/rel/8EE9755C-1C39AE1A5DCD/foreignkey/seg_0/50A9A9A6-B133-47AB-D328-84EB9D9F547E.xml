@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50A9A9A6-B133-47AB-D328-84EB9D9F547E" containerWithKeyObject="A0DE01A1-A1FA-8033-17DA-9A98E3FF22FD" localFKIndex="A5199958-4E66-38F1-A375-10316705D903" name="asignar_meca_Mantenimiento_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:28:18 UTC</createdTime>
+<generatorID>42BCF66F-55BC-D86C-B40E-B83B5BFEAF0B</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<referredTableLongName>Mantenimiento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C730049A-0291-3652-791C-EBAA94BB4C4E</referredTableID>
+<keyObject>2B894BD1-4824-EAFC-8BB8-FE44761889EA</keyObject>
+<referredKeyID>2B894BD1-4824-EAFC-8BB8-FE44761889EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mantenimiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="etapa" directorySegmentName="seg_0" id="3EA8A193-8D1C-7E85-3633-D2C77C044BE7">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:50:34 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<sourcePk>B665F616-E02A-9F61-E0B5-7C63BCC017F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CC6870FD-2F28-9B3A-FF1D-BA50417DEF4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>671ABF5E-776E-6B61-82C1-5D774EED287B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

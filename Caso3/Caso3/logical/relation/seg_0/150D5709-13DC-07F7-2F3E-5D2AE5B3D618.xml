@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="puesto" directorySegmentName="seg_0" id="150D5709-13DC-07F7-2F3E-5D2AE5B3D618">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 14:56:06 UTC</createdTime>
+<ownerDesignName>Caso3</ownerDesignName>
+<engineerTo>
+<item key="38AB4CF9-E095-1DBD-77B2-F818C5CA30C8" value="true"/>
+</engineerTo>
+<sourcePk>786AD137-8A72-8946-AA87-AA3DB6923E64</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F767FD08-1D86-6ACC-A28E-0996D9A4223E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05A86137-DCB5-0220-7BD2-A43D99D26CB4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3C970C8-BB66-F5B2-7995-01DAC410557F" containerWithKeyObject="654BA5CE-3710-884F-D03F-72F2E2B5773E" localFKIndex="D7BE764A-DDB5-B4F4-6A63-40CF3B8B3401" name="asignar_emp_Empleado_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>6E607587-E042-173B-39A8-E2EC478DD3C1</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<referredTableLongName>Empleado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58D22A08-2134-A6DD-F696-94008C94E0F8</referredTableID>
+<keyObject>9CB4ACAC-1288-54B7-C1CF-F3F779C0A24F</keyObject>
+<referredKeyID>9CB4ACAC-1288-54B7-C1CF-F3F779C0A24F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

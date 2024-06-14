@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66C9B288-2ACD-984B-D52B-19776A5B9A1C" name="asignar_etapa">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>671ABF5E-776E-6B61-82C1-5D774EED287B</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar_etapa" id="C37AF314-E467-7F4D-F253-ED928AB4349F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>A216245A-AD8B-A0E6-797A-65EBE65B83D6</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_id_producto" id="6557C6C4-E99F-FF79-F8AE-CC98F15DFA21">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>135C7A08-AF46-C0CA-977E-76D147554267</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AD53198-FEC4-A1DE-163B-3703320CBD67" referredColumn="25CF3937-B6C0-BDB7-86D2-FFBFF3B72756"/>
+</associations>
+</Column>
+<Column name="Etapa_id_etapa" id="2F561E1D-4576-4734-7E59-740D88102980">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>AB04080C-A313-CA48-789F-855903D314F8</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40E2A6BB-956D-7DD3-D5A2-9725C4E687F6" referredColumn="1A83FED8-B748-8ADF-AD44-D50DDA1B2F21"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4655BF0-5DA9-59CC-B4B3-5AFBC2AF9E18" name="asignar_etapa_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>FAB4CB99-9BDC-9724-800B-9921B7F41DED</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C37AF314-E467-7F4D-F253-ED928AB4349F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC12C126-42CA-BFEF-B515-E968D7A21815" name="asignar_etapa_Etapa_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>3EA8A193-8D1C-7E85-3633-D2C77C044BE7</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F561E1D-4576-4734-7E59-740D88102980"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="585FA4CB-F236-88C5-1070-8567EE364DB7" name="asignar_etapa_Producto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>327804F9-62FB-6273-94E3-49D1B7ABCEA5</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6557C6C4-E99F-FF79-F8AE-CC98F15DFA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

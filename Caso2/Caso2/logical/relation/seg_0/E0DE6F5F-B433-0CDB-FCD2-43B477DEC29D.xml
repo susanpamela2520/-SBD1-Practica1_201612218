@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="proveedor" directorySegmentName="seg_0" id="E0DE6F5F-B433-0CDB-FCD2-43B477DEC29D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:09:48 UTC</createdTime>
+<ownerDesignName>Caso2</ownerDesignName>
+<engineerTo>
+<item key="AF47F6DC-45C8-B78D-0702-4ACF12490D69" value="true"/>
+</engineerTo>
+<sourcePk>8A3D93FD-6E60-33B8-5757-3E365DE907FC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D96D36F-4506-BE24-C1B1-37D6F31A6574</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1874DE92-18EE-A7FF-3829-4B1C529A661D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

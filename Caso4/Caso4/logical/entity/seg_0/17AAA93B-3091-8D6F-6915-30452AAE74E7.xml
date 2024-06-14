@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17AAA93B-3091-8D6F-6915-30452AAE74E7" name="asignar_boleto">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 04:39:34 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asignar" id="C4253D2C-939A-791D-4ED6-4892D3F91E57">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 04:39:58 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pago" id="07472BC9-69BA-0790-5D88-0BD85F1EA388">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:20:17 UTC</createdTime>
+<generatorID>62F6BD84-A74E-C6CD-74E7-4886009B8D57</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<referedAttribute>1B930D57-232E-185D-E2A5-309B871E9384</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_boleto" id="DA2275B7-2EC9-D3CA-1923-11CE431E09DF">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 05:20:23 UTC</createdTime>
+<generatorID>809B2CC3-1C1E-A9E5-4E3E-15901EAE56AE</generatorID>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<referedAttribute>4133764A-AB86-AD33-9804-B11CBF037E92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="157A1344-AA02-00ED-236C-B51735DCA080" name="asignar_boleto PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 04:40:16 UTC</createdTime>
+<ownerDesignName>Caso4</ownerDesignName>
+<engineerTo>
+<item key="8EE9755C-D9A7-184F-A1B9-1C39AE1A5DCD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4253D2C-939A-791D-4ED6-4892D3F91E57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

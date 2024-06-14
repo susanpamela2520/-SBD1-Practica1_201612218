@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CAB827E-7403-EDD8-F210-E084BF5A1087" name="asignar_bodega">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>9DB8EA86-9F18-D30F-725A-EEFF4223BE48</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar_bodega" id="C2CA5F76-C41A-E603-ABE5-A257ACA681F9">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>B150928A-4689-0EA5-C8F9-B13C1DB7CEA9</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bodega_id_bodega" id="02B81EF9-36C6-3BD2-FF1A-8D23F9829815">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>FB38F61E-EB4A-5458-AF38-A82E572C3F94</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8056A710-5B8A-C71E-C57A-E5338A2E7E45" referredColumn="3952D3DC-2CD9-64C0-5648-36F187718025"/>
+</associations>
+</Column>
+<Column name="Producto_id_producto" id="90CF4C79-B173-D9A2-A4D4-F0C082E0099D">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>B42BE5C9-20A8-19B6-7A76-9D7F18FD1908</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96CBAC70-CA7F-A682-31AF-0808D7CBC673" referredColumn="25CF3937-B6C0-BDB7-86D2-FFBFF3B72756"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A079606-57A4-77EF-1C10-AD06864FEDE8" name="asignar_bodega_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>36EE9095-2D2C-46F2-CA34-CBB09EDBC462</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2CA5F76-C41A-E603-ABE5-A257ACA681F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="028562A5-5559-0D24-080B-2589FE62586F" name="asignar_bodega_Bodega_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>0C4E72E9-2EDA-7DFE-3490-8D1EE0132A53</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02B81EF9-36C6-3BD2-FF1A-8D23F9829815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF402BDB-B4CF-D7F4-38CA-37D5340FCD8D" name="asignar_bodega_Producto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>87C7FFCC-ED7C-4621-49AC-0AF3B5933FCE</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90CF4C79-B173-D9A2-A4D4-F0C082E0099D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

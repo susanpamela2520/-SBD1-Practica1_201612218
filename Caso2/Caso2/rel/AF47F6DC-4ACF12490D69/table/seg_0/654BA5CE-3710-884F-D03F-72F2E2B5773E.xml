@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="654BA5CE-3710-884F-D03F-72F2E2B5773E" name="asignar_emp">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>9A7D66B3-4BBD-CF0E-B7CA-2E76879AA7A8</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar" id="BCC609A3-3087-CA18-A5AD-442036444D16">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>BFE84E94-6E16-4C6A-F8EF-978884D2E4FF</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="B8E25CA8-64D0-F283-D861-178D145DB49E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>F1BCBE12-4B7F-1477-34BA-94D000B019A9</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3C970C8-BB66-F5B2-7995-01DAC410557F" referredColumn="ADC68D7F-88B4-6AD8-C38F-C3F62DE5F82D"/>
+</associations>
+</Column>
+<Column name="Sucursal_id_sucursal" id="F7AC5AC0-C103-AA65-EDC0-69B2C8D7CE24">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>76541FDF-B9B4-25AD-2E77-840AF8F4FE3D</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="176AF560-1A93-809D-7DE5-A02228B4D3CF" referredColumn="139A8084-ED83-297B-CE68-0726D6BF732B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BB32A63-E80E-FD3E-1996-64054A5FA20C" name="asignar_emp_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>2A11B3E7-AAD4-867D-3635-C851D1B6ACDE</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCC609A3-3087-CA18-A5AD-442036444D16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7BE764A-DDB5-B4F4-6A63-40CF3B8B3401" name="asignar_emp_Empleado_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>6E607587-E042-173B-39A8-E2EC478DD3C1</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8E25CA8-64D0-F283-D861-178D145DB49E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6548F6AB-CB4C-5CD7-B819-BEA72FA6871E" name="asignar_emp_Sucursal_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-14 01:35:35 UTC</createdTime>
+<generatorID>8A2004F5-CAEE-4E4B-B265-FB2F0C39C13E</generatorID>
+<ownerDesignName>Caso2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7AC5AC0-C103-AA65-EDC0-69B2C8D7CE24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

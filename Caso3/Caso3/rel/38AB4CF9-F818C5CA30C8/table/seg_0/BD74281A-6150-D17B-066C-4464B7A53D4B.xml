@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD74281A-6150-D17B-066C-4464B7A53D4B" name="asignar_parte">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>CCBAD991-3C6F-9DEB-605E-F3555C1086EE</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asignar_parte" id="20ABA106-A7F6-0F33-C236-DDADB99047CF">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>7B5B058C-FD87-3DE9-201D-399D5BE39DCE</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_id_producto" id="9FE690B4-4116-7EA8-3A89-D94BBCAD7D09">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>C3489D7D-57E1-C993-368A-46683DCF974B</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EDD8C17-ABEA-3ADF-3AB0-5C8965706906" referredColumn="25CF3937-B6C0-BDB7-86D2-FFBFF3B72756"/>
+</associations>
+</Column>
+<Column name="Parte_id_parte" id="BE1CB4B1-15AD-E0F1-8413-1D68E26DBA1F">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>06673A52-9D3D-1E7D-7E41-BBA1EC32E1AC</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B98C8D96-F6E2-F85D-CFF3-201F228064CB" referredColumn="6103B976-A956-549C-B44B-354B2601D09E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D8E2710-D8EF-CC3E-A021-2ADF4D413001" name="asignar_parte_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>B2EA7765-301F-D254-8095-D34FB3CD0BC1</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20ABA106-A7F6-0F33-C236-DDADB99047CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="297130C4-10D2-E789-EA71-B83D84944C4A" name="asignar_parte_Parte_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>C423F5A8-F6CC-009F-F23D-C0B7742F2468</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE1CB4B1-15AD-E0F1-8413-1D68E26DBA1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3EEA629-0566-33DB-BC3C-7D911F5E29F7" name="asignar_parte_Producto_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-13 15:08:31 UTC</createdTime>
+<generatorID>01F6377E-E7F7-BA6E-98FD-0581B1A7AFAB</generatorID>
+<ownerDesignName>Caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FE690B4-4116-7EA8-3A89-D94BBCAD7D09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

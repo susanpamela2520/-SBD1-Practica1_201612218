@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="178A2095-0BB7-A813-26EE-6CB983A690CF" name="Falta">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>C2D7966F-5672-4053-001E-6F3DE6A20CF0</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_falta" id="4940259D-7C7B-806C-A57E-18FF9BDDFA70">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>9930A77C-E0F5-E99D-D8DA-18473993B2C2</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="70F90DB2-E4C8-38DC-1455-39BCE814A49E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>6D5960BF-76ED-D7D1-5AC0-F8441C09660A</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incidencia" id="0AEA68A8-82DB-6494-659C-518FBF3B3040">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>4235049A-469A-F20C-98FD-9087F02DE967</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIpo_Falta_id_falta" id="6D501648-25DD-62E8-F888-AF11146AFDB3">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>5C873E7D-51FA-885E-130E-40730193221D</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D24D883-8067-0B59-418A-A86BD9EF867F" referredColumn="3E46B086-9489-A302-B5FF-B258130D1EEE"/>
+</associations>
+</Column>
+<Column name="Empleado_id_empleado" id="B1097C7E-73FD-FFA6-66D9-707565DC4F3E">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>81EA7FF1-5960-67F1-260E-E0CA913F961D</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D76A9A7C-D7D5-B7CF-55FA-F5838AEBC438" referredColumn="C04CECB9-7437-6E5B-266D-440D5A4ABD94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="125D9C97-527A-9EF9-EDC7-80A3C616F50E" name="Falta_PK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>6E903B0C-E276-CC86-4BD5-76EC5E02244E</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4940259D-7C7B-806C-A57E-18FF9BDDFA70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="436082C5-5D4A-6F4E-45BD-4B24FD560A59" name="Falta_TIpo_Falta_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>482DE62D-1DF9-632B-C271-7CE74C8D366C</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D501648-25DD-62E8-F888-AF11146AFDB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F6E39FD-226F-72AE-B82F-E85AC7D72BC4" name="Falta_Empleado_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-06-15 07:45:18 UTC</createdTime>
+<generatorID>02144D5F-7120-FFF7-2D4B-F79139AFABD9</generatorID>
+<ownerDesignName>Caso1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1097C7E-73FD-FFA6-66D9-707565DC4F3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
